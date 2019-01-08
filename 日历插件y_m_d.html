@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>日历插件 y/m/d</title>
+    <link rel="stylesheet" href="css/data_y_m_d.css">
+</head>
+<body>
+<!--demo-->
+<div class="content">
+    <p class="title">出现问题时间</p>
+    <div class="center-content">
+        <input type="text" name="happentime" id="a" class="propose date_picker" readonly>
+    </div>
+    <div class="date_selector">
+        <div class="head">
+            <div class="month">
+                <button class="btn prev">«</button>
+                <div></div>
+                <button class="btn next">»</button>
+            </div>
+            <div class="year">
+                <button class="btn prev">«</button>
+                <div></div>
+                <button class="btn next">»</button>
+            </div>
+        </div>
+        <div class="title"></div>
+        <div class="body"></div>
+    </div>
+</div>
+<script src="js/jquery1.9.min.js"></script>
+<script src="js/data_y_m_d.js"></script>
+<script>
+    init();
+</script>
+</body>
+</html>
