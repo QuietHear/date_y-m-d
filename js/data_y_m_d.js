@@ -4,7 +4,7 @@ let fullTime = [], // 输出的时间
     nowDay, // 当前日，1-xx
     nowWeek, // 当前星期几，0-6 周天到周一
     standard = 1, // 周首日--周一
-    mode = 'doubleDay', // 单位，默认选day。day：选某一天,week：选某一周,doubleDay：选一个时间范围
+    mode = 'doubleDay', // 单位，默认选day。day：选某一天,week：选某一周,doubleDay：选一个时间范围,mouth：选一个月,doubleMouth：选一个月范围
     dataArrLength = 42, // 每页数据总数量，6*7=42条数据
     dataArr = [], // 前显示月的数据
     canSelAll = false, // 今天后面的天是否可选，true可选，false不可选
